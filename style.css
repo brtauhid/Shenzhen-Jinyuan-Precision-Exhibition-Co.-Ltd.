@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  height: 40px;
+}
+
+.nav-email {
+  width: 150px;
+}
+
+.nav-lang-btn {
+  width: 75px;
+}
+
+.c-title h1 {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+.c-title h4 {
+  font-size: 8.1px;
+  margin: 0;
+  padding: 0;
+}
+.hch {
+  height: 550px;
+  background-color: aquamarine;
+  background-image: url(./img/main-banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.hero-items {
+  height: 550px;
+}
+
+.height-hero {
+  height: 550px;
+}
