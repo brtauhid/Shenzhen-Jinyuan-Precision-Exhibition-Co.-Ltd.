@@ -305,3 +305,54 @@ body {
 .operating-info p {
   font-size: 12px;
 }
+
+/* equipment start */
+.equipement {
+  height: 500px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.eq-title h2 {
+  color: #b5a064;
+}
+
+.eq-title h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.eq-top-heading {
+  background-color: #b5a064;
+}
+
+.equipement-content {
+  background-color: #f7f7f7;
+  border-radius: 5px;
+}
+
+.eq-heading h2 {
+  font-size: 15px;
+  position: relative;
+}
+
+.eq-heading h2:after {
+  content: "";
+  width: 100px;
+  border-bottom: solid 3px #b5a064;
+  position: absolute;
+  right: 36%;
+  top: 135%;
+  height: 3px;
+  z-index: 1;
+}
+.eq-btn {
+  background-color: #b5a064;
+  padding: 10px 40px !important;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.eq-list li {
+  text-align: left !important;
+}
