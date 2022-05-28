@@ -356,3 +356,37 @@ body {
 .eq-list li {
   text-align: left !important;
 }
+
+/* Company Info */
+.ci-title h2 {
+  font-size: 30px;
+  color: #b5a064;
+  padding-bottom: 15px !important;
+}
+.ci-title h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.info-1 h3,
+.info-2 h3,
+.info-3 h3,
+.info-4 h3,
+.info-5 h3,
+.info-6 h3 {
+  font-size: 15px;
+  padding-bottom: 30px !important;
+}
+
+.info-1 h4,
+.info-2 h4,
+.info-3 h4,
+.info-4 h4,
+.info-5 h4,
+.info-6 h4 {
+  font-size: 12px;
+}
+
+.ci-width {
+  max-width: 500px;
+}
