@@ -3,6 +3,9 @@
   padding: 0 !important;
 }
 
+body {
+}
+
 .top-bar {
   height: 50px;
   margin-bottom: -2px !important;
@@ -104,9 +107,10 @@
 .strength-section-title {
   margin-top: 70px !important;
 }
-.st-bg {
+.strength {
   background-color: #f7f7f7;
   margin-top: -80px !important;
+  width: 100vw;
 }
 .single-strength-card {
   width: 150px;
@@ -188,6 +192,9 @@
   width: 400px !important;
 }
 /* capability */
+.capability {
+  background-color: #fff;
+}
 
 .capability-title h1 {
   font-size: 30px;
@@ -206,6 +213,8 @@
 .list-1 {
   width: 140px;
   height: 375px;
+  background-color: #f7f7f7;
+  border-radius: 5%;
 }
 .list-1 ul li {
   list-style: none;
@@ -215,6 +224,14 @@
 .list-title {
   color: #b5a064;
   text-align: center;
+}
+.list-2 {
+  background-color: #f7f7f7;
+  border-radius: 5%;
+}
+.list-3 {
+  background-color: #f7f7f7;
+  border-radius: 5%;
 }
 /* quality */
 .quality {
@@ -255,4 +272,36 @@
 .single-quality-card p {
   font-size: 10px;
   padding: 5px 15px !important;
+}
+
+/* operating */
+.operating {
+  background-color: #fff;
+  border-radius: 10%;
+  height: 280px;
+  font-size: 14px;
+}
+.operating-content h2 {
+  font-size: 20px;
+  color: #b5a064;
+  position: relative;
+}
+
+.operating-content h2:after {
+  content: "";
+  width: 100px;
+  border-bottom: solid 3px #b5a064;
+  position: absolute;
+  right: 36%;
+  top: 135%;
+  height: 3px;
+  z-index: 1;
+}
+.operating-info h3 {
+  background-color: #b5a064;
+  color: #fff;
+}
+
+.operating-info p {
+  font-size: 12px;
 }
