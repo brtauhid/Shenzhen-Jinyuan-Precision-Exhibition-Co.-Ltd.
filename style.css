@@ -8,6 +8,39 @@
   margin-bottom: -2px !important;
 }
 
+.main-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.main-menu li {
+  list-style: none;
+  margin: 0 20px !important;
+  display: inline-block;
+}
+
+.main-menu li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+.main-menu li a:hover {
+  color: #b5a064;
+}
+
+.top-bar-email {
+  color: #fff;
+  font-size: 9px;
+}
+
+.top-bar-email-bg {
+  background-color: #333333 !important;
+}
+
 .nav-email {
   width: 150px;
 }
@@ -20,6 +53,7 @@
   font-size: 14px;
   margin: 0;
   padding: 0;
+  color: #b5a064;
 }
 .c-title h4 {
   font-size: 8.1px;
@@ -152,4 +186,35 @@
 .info-detail {
   font-size: 12px;
   width: 400px !important;
+}
+/* capability */
+.capability {
+  height: 2000px;
+}
+.capability-title h1 {
+  font-size: 30px;
+  color: #b5a064;
+}
+.capability-info h3 {
+  background-color: #b5a064;
+  color: #fff;
+}
+
+.capability-info p {
+  font-size: 12px;
+}
+
+/* table chart start */
+.list-1 {
+  width: 140px;
+  height: 375px;
+}
+.list-1 ul li {
+  list-style: none;
+  text-align: center;
+}
+
+.list-title {
+  color: #b5a064;
+  text-align: center;
 }
