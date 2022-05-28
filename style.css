@@ -38,7 +38,7 @@
 }
 
 .top-bar-email-bg {
-  background-color: #333333 !important;
+  background-color: #333333;
 }
 
 .nav-email {
@@ -188,9 +188,7 @@
   width: 400px !important;
 }
 /* capability */
-.capability {
-  height: 2000px;
-}
+
 .capability-title h1 {
   font-size: 30px;
   color: #b5a064;
@@ -217,4 +215,44 @@
 .list-title {
   color: #b5a064;
   text-align: center;
+}
+/* quality */
+.quality {
+  background-color: #f7f7f7;
+}
+/* quality card */
+.single-quality-card {
+  width: 170px;
+  height: 185px;
+  background-color: #fff;
+  border-radius: 10%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid;
+}
+.single-quality-card h2 {
+  color: #b5a064;
+  display: inline;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  margin-top: 50px;
+  position: relative;
+}
+.single-quality-card h2:after {
+  content: "";
+  width: 100px;
+  border-bottom: solid 3px #fff;
+  position: absolute;
+  right: -70%;
+  top: 100%;
+  z-index: 1;
+}
+
+.single-quality-card p {
+  font-size: 10px;
+  padding: 5px 15px !important;
 }
