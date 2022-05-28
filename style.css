@@ -390,3 +390,36 @@ body {
 .ci-width {
   max-width: 500px;
 }
+
+/* footer start */
+.footer-1 {
+  height: 110px;
+  background-color: #b5a064;
+  color: #fff;
+}
+
+.footer-1 h4 {
+  font-size: 16px;
+}
+.footer-2 {
+  height: 175px;
+  background-color: #404040;
+}
+.logo img {
+  width: 25px;
+}
+.company-title {
+  text-align: left;
+}
+.company-title h2 {
+  font-size: 14px;
+  color: #b5a064;
+}
+.company-title p {
+  font-size: 7.5px;
+  color: #fff;
+}
+.company-contact p {
+  font-size: 10px;
+  color: #fff;
+}
