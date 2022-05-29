@@ -8,9 +8,19 @@
   display: none;
 }
 
+#btn-back-to-top {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  display: none;
+  padding: 10px 20px !important;
+  background-color: #b5a064;
+}
+
 .top-bar {
   height: 50px;
   margin-bottom: -2px !important;
+  background-color: #fff;
 }
 .topbar-icon {
   background-color: #b5a064;
@@ -43,6 +53,12 @@
 .top-bar-email {
   color: #fff;
   font-size: 9px;
+}
+.topbar-icon .fas {
+  color: #f7f7f7;
+}
+.topbar-icon p {
+  color: #f7f7f7;
 }
 
 .top-bar-email-bg {
@@ -350,6 +366,7 @@
   margin-top: 10px !important;
   margin-bottom: -15px !important;
 }
+
 /* quality card */
 .single-quality-card {
   width: 170px;
@@ -362,6 +379,9 @@
   justify-content: center;
   flex-direction: column;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.single-quality-card img {
+  margin-left: 10px !important;
 }
 .single-quality-card h2 {
   color: #b5a064;
@@ -467,6 +487,7 @@
   padding: 10px 40px !important;
   display: inline-block;
   cursor: pointer;
+  color: #fff;
 }
 
 .eq-list li {
@@ -527,6 +548,9 @@
 .company-title {
   text-align: left;
 }
+.footer button {
+  color: #fff;
+}
 .company-title h2 {
   font-size: 14px;
   color: #b5a064;
@@ -559,6 +583,15 @@
   .section-top-bar {
     display: none;
   }
+
+  #btn-back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    display: none;
+    padding: 5px 15px !important;
+    background-color: #b5a064;
+  }
   .topbar-mobile {
     background-color: #333333;
     display: block;
@@ -577,6 +610,13 @@
   }
   .btn-mobile {
     background-color: #b5a064;
+  }
+  .btn-mobile .fas {
+    color: #fff;
+    font-size: 10px;
+  }
+  .btn-mobile p {
+    margin-top: 5px !important;
   }
   .mobile-menu-bg {
     background-color: #fff;
@@ -716,6 +756,7 @@
   .footer-2 {
     height: 200px;
   }
+
   .company-logo {
     display: none;
   }
@@ -766,7 +807,9 @@
     font-weight: 700;
     color: #b5a064;
   }
-
+  .single-card-container img {
+    display: none;
+  }
   /* Small devices (portrait tablets and large phones, 600px and up) */
   @media only screen and (min-width: 600px) {
   }

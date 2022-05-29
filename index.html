@@ -3,6 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/54db8b061e.js"
+      crossorigin="anonymous"
+    ></script>
     <title>深圳市金元精密発展有限公司</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -10,9 +15,10 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
+    
   </head>
   <body>
+    
     <section class="topbar-mobile">
       <div class="container">
         <div class="row">
@@ -25,7 +31,7 @@
           <div
             class="col-2 btn-mobile d-flex justify-content-center align-items-center"
           >
-            <p>中文版</p>
+          <i class="fas fa-globe me-1"></i> <p>中文版</p><i class="fas fa-caret-right "></i>
           </div>
         </div>
         <div class="row">
@@ -64,7 +70,7 @@
     </section>
 
     <!-- Top bar section -->
-    <div class="section-top-bar">
+    <div class="section-top-bar sticky-top">
       <div class="container-fluid top-bar">
         <div class="row">
           <div class="col-md-3 d-flex align-items-center">
@@ -90,13 +96,15 @@
           <div
             class="col-md-2 top-bar-email-bg d-flex flex-column justify-content-end align-items-end pe-2 pb-2"
           >
-            <div class="top-bar-email">お問い合わせ</div>
+            <div class="top-bar-email">
+              お問い合わせ</i>
+            </div>
             <div class="top-bar-email">jinyuanshuai@sz-jinyuan.com</div>
           </div>
           <div
-            class="col-md-1 topbar-icon d-flex align-items-center justify-content-center flex-column"
+            class="col-md-1 topbar-icon d-flex  align-items-center justify-content-center "
           >
-            中文版
+          <i class="fas fa-globe me-2"></i> <p>中文版</p><i class="ms-2 fas fa-caret-right"></i> 
           </div>
         </div>
       </div>
@@ -143,7 +151,7 @@
             class="col d-flex flex-column align-items-center justify-content-center strength-mobile-section-title"
           >
             <h1>選ばれる理由</h1>
-            <h3>STRENGTH</h3>
+            <h3>STRENGTH </h3>
           </div>
           <div class="row">
             <div class="col-6 d-flex align-items-center justify-content-center">
@@ -739,7 +747,7 @@
         <div class="row">
           <!-- card 1 -->
           <div
-            class="col-md-4 col-6 d-flex align-items-center justify-content-center mt-3 mb-4"
+            class="col-md-4 single-card-container col-6 d-flex align-items-center justify-content-center mt-3 mb-4"
           >
             <div class="single-quality-card">
               <h2 class="mb-3">原材料検査</h2>
@@ -747,23 +755,25 @@
                 購入した原材料や副資材が図面の要求事項を満たしているかをチェックします。不適格な材料が製造工程に入ることを防ぎます。
               </p>
             </div>
+            <img style="margin-left:70px!important; margin-right: 50px" src="./img/r-1.png" width="45px" alt="" >
           </div>
           <!-- card 2 -->
           <div
-            class="col-md-4 col-6 d-flex align-items-center justify-content-center mt-3 mb-4"
+            class="col-md-4 col-6 d-flex align-items-center justify-content-center mt-3 mb-4 single-card-container"
           >
-            <div class="single-quality-card">
+            <div class="single-quality-card ">
               <h2 class="mb-3">原材料検査</h2>
               <p>
                 購入した原材料や副資材が図面の要求事項を満たしているかをチェックします。不適格な材料が製造工程に入ることを防ぎます。
               </p>
             </div>
+            <img style="margin-left:70px!important" src="./img/r-2.png" width="45px" alt="" >
           </div>
           <!-- card 3 -->
           <div
-            class="col-md-4 d-flex align-items-center justify-content-center mt-3 mb-4"
+            class="col-md-4 d-flex align-items-center  justify-content-center mt-3 mb-4"
           >
-            <div class="single-quality-card">
+            <div style="margin-left:-70px!important" class="single-quality-card ">
               <h2 class="mb-3">原材料検査</h2>
               <p>
                 購入した原材料や副資材が図面の要求事項を満たしているかをチェックします。不適格な材料が製造工程に入ることを防ぎます。
@@ -893,7 +903,7 @@
                 </div>
               </div>
             </div>
-            <div class="eq-btn mt-5">設備一覧表をダウンロード</div>
+            <div class="eq-btn mt-5">設備一覧表をダウンロード <i class="fas fa-download ms-3"></i> </div>
           </div>
         </div>
       </div>
@@ -1002,8 +1012,8 @@
             class="col-md-12 d-flex flex-column align-items-center justify-content-center footer-1"
           >
             <h4>お問い合わせ、無料見積もりはこちら</h4>
-            <h4 class="p-2">(+86) 755-2322-9683</h4>
-            <h4>jinyuanshuai@sz-jinyuan.com</h4>
+            <h4 class="p-2"><i class="fas fa-phone-alt me-1"></i>(+86) 755-2322-9683</h4>
+            <h4><i class="fas fa-envelope me-1"></i> jinyuanshuai@sz-jinyuan.com</h4>
           </div>
         </div>
         <!-- Footer 2 start -->
@@ -1047,12 +1057,21 @@
           </p>
         </div>
       </div>
+      
+      <button
+        type="button"
+        class="btn  btn-floating btn-lg"
+        id="btn-back-to-top"
+        >
+          TOP<i class="fas fa-arrow-up ms-2"></i>
+      </button>
     </section>
-
+    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+    <script src="./index.js"></script>
   </body>
 </html>
