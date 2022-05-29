@@ -13,44 +13,97 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container-fluid top-bar">
-      <div class="row">
-        <div class="col-md-3 d-flex align-items-center">
-          <div class="logo me-2 ms-3">
-            <img src="./img/logo.png" width="30px" alt="" />
+    <section class="topbar-mobile">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-10 email-mobile d-flex flex-column justify-content-end align-items-end"
+          >
+            <h4>お問い合わせ</h4>
+            <p>jinyuanshuai@sz-jinyuan.com</p>
           </div>
-          <div class="c-title d-flex align-items-start flex-column">
-            <h1>深圳市金元精密発展有限公司</h1>
-            <h4>Shenzhen Jinyuan Precision Development Co.,Ltd</h4>
+          <div
+            class="col-2 btn-mobile d-flex justify-content-center align-items-center"
+          >
+            <p>中文版</p>
           </div>
         </div>
-        <div class="col-md-6 d-flex justify-content-end">
-          <!-- Navbar -->
-          <nav>
-            <ul class="main-menu">
-              <li><a href="">選ばれる理由</a></li>
-              <li><a href="">加工能力</a></li>
-              <li><a href="">設備一覧</a></li>
-              <li><a href="">会社概要</a></li>
-            </ul>
-          </nav>
+        <div class="row">
+          <div class="col mobile-menu-bg">
+            <nav>
+              <ul class="main-menu-mobile">
+                <li><a href="">選ばれる理由</a></li>
+                <li><a href="">加工能力</a></li>
+                <li><a href="">設備一覧</a></li>
+                <li><a href="">会社概要</a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
-        <div
-          class="col-md-2 top-bar-email-bg d-flex flex-column justify-content-end align-items-end pe-2 pb-2"
-        >
-          <div class="top-bar-email">お問い合わせ</div>
-          <div class="top-bar-email">jinyuanshuai@sz-jinyuan.com</div>
+      </div>
+    </section>
+
+    <section class="mobile-hero">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h1>
+              <div
+                class="col text-content d-flex align-items-center justify-content-center flex-column"
+              >
+                <img src="./img/logo.png" width="75px" alt="" />
+                <h2>精密加工就选</h2>
+                <h1 class="my-3">金元精密</h1>
+                <img class="line-img" src="./img/line-1.png" alt="" />
+                <h3>中国速度 日本品质 价格合理 服务用心</h3>
+              </div>
+            </h1>
+          </div>
         </div>
-        <div
-          class="col-md-1 topbar-icon d-flex align-items-center justify-content-center flex-column"
-        >
-          中文版
+      </div>
+    </section>
+
+    <!-- Top bar section -->
+    <div class="section-top-bar">
+      <div class="container-fluid top-bar">
+        <div class="row">
+          <div class="col-md-3 d-flex align-items-center">
+            <div class="logo me-2 ms-3">
+              <img src="./img/logo.png" width="30px" alt="" />
+            </div>
+            <div class="c-title d-flex align-items-start flex-column">
+              <h1>深圳市金元精密発展有限公司</h1>
+              <h4>Shenzhen Jinyuan Precision Development Co.,Ltd</h4>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex justify-content-end">
+            <!-- Navbar -->
+            <nav>
+              <ul class="main-menu">
+                <li><a href="">選ばれる理由</a></li>
+                <li><a href="">加工能力</a></li>
+                <li><a href="">設備一覧</a></li>
+                <li><a href="">会社概要</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div
+            class="col-md-2 top-bar-email-bg d-flex flex-column justify-content-end align-items-end pe-2 pb-2"
+          >
+            <div class="top-bar-email">お問い合わせ</div>
+            <div class="top-bar-email">jinyuanshuai@sz-jinyuan.com</div>
+          </div>
+          <div
+            class="col-md-1 topbar-icon d-flex align-items-center justify-content-center flex-column"
+          >
+            中文版
+          </div>
         </div>
       </div>
     </div>
 
     <!-- Hero area -->
-    <section>
+    <section class="hero">
       <div class="container-fluid">
         <div class="row hch">
           <div
@@ -59,7 +112,7 @@
             <img src="./img/logo.png" width="150px" alt="" />
             <h2>精密加工就选</h2>
             <h1 class="my-3">金元精密</h1>
-            <img src="./img/line-1.png" alt="" />
+            <img class="line-img" src="./img/line-1.png" alt="" />
             <h3>中国速度 日本品质 价格合理 服务用心</h3>
           </div>
         </div>
@@ -67,7 +120,7 @@
     </section>
     <!-- About Section -->
 
-    <section>
+    <section class="about">
       <div class="container-fluid">
         <div class="row">
           <div
@@ -83,8 +136,147 @@
       </div>
     </section>
 
+    <section class="mobile-strength">
+      <div class="container-fluid">
+        <div class="row">
+          <div
+            class="col d-flex flex-column align-items-center justify-content-center strength-mobile-section-title"
+          >
+            <h1>選ばれる理由</h1>
+            <h3>STRENGTH</h3>
+          </div>
+          <div class="row">
+            <div class="col-6 d-flex align-items-center justify-content-center">
+              <div class="single-strength-card">
+                <h2 class="mb-2">1</h2>
+                <p>選ばれる理由</p>
+              </div>
+            </div>
+            <div class="col-6 d-flex align-items-center justify-content-center">
+              <div class="single-strength-card">
+                <h2 class="mb-2">2</h2>
+                <p>選ばれる理由</p>
+              </div>
+            </div>
+            <div
+              class="col-6 mt-4 d-flex align-items-center justify-content-center"
+            >
+              <div class="single-strength-card">
+                <h2 class="mb-2">3</h2>
+                <p>選ばれる理由</p>
+              </div>
+            </div>
+            <div
+              class="col-6 mt-4 d-flex align-items-center justify-content-center"
+            >
+              <div class="single-strength-card">
+                <h2 class="mb-2">4</h2>
+                <p>選ばれる理由</p>
+              </div>
+            </div>
+          </div>
+          <!-- deails -->
+          <div class="row mt-5">
+            <div>
+              <div class="col mt-5">
+                <div class="strength-detail-mobile">
+                  <div class="number1-mobile">01</div>
+                  <div>
+                    <div class="info-heading-mobile">
+                      <h4 class="mb-3">
+                        プロの営業担当者による<br />最速見積対応
+                      </h4>
+                    </div>
+                    <div class="info-detail-mobile">
+                      社内には日本語がネイティブレベルのプロの営業担当者が常駐しておりますので、最短1時間、平均1営業日以内に見積を対応できます。
+                      図面を送ってすぐ値段がわかります！
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <img src="./img/woman.jpg" width="100%" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- deails -->
+          <div class="row mt-5">
+            <div>
+              <div class="col mt-5">
+                <div class="strength-detail-mobile">
+                  <div class="number1-mobile">02</div>
+                  <div>
+                    <div class="info-heading-mobile">
+                      <h4 class="mb-3">
+                        プロの営業担当者による<br />最速見積対応
+                      </h4>
+                    </div>
+                    <div class="info-detail-mobile">
+                      社内には日本語がネイティブレベルのプロの営業担当者が常駐しておりますので、最短1時間、平均1営業日以内に見積を対応できます。
+                      図面を送ってすぐ値段がわかります！
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <img src="./img/parts.jpg" width="100%" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- deails -->
+          <div class="row mt-5">
+            <div>
+              <div class="col mt-5">
+                <div class="strength-detail-mobile">
+                  <div class="number1-mobile">03</div>
+                  <div>
+                    <div class="info-heading-mobile">
+                      <h4 class="mb-3">
+                        プロの営業担当者による<br />最速見積対応
+                      </h4>
+                    </div>
+                    <div class="info-detail-mobile">
+                      社内には日本語がネイティブレベルのプロの営業担当者が常駐しておりますので、最短1時間、平均1営業日以内に見積を対応できます。
+                      図面を送ってすぐ値段がわかります！
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <img src="./img/man-working.jpg" width="100%" alt="" />
+              </div>
+            </div>
+          </div>
+          <!-- deails -->
+          <div class="row mt-5">
+            <div>
+              <div class="col mt-5">
+                <div class="strength-detail-mobile">
+                  <div class="number1-mobile">04</div>
+                  <div>
+                    <div class="info-heading-mobile">
+                      <h4 class="mb-3">
+                        プロの営業担当者による<br />最速見積対応
+                      </h4>
+                    </div>
+                    <div class="info-detail-mobile">
+                      社内には日本語がネイティブレベルのプロの営業担当者が常駐しておりますので、最短1時間、平均1営業日以内に見積を対応できます。
+                      図面を送ってすぐ値段がわかります！
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <img src="./img/parts-2.jpg" width="100%" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Strength Section -->
-    <section class="mx-auto strength">
+    <section class="strength">
       <div class="container-fluid strength mx-auto max-width">
         <div class="row mt-5">
           <div
@@ -135,7 +327,7 @@
         </div>
       </div>
 
-      <div class="container-fluid max-width mx-auto">
+      <div class="strength-container max-width mx-auto">
         <!-- number area 1 -->
         <div class="row mt-5">
           <div class="st-info d-flex align-items-center justify-content-center">
@@ -306,7 +498,7 @@
       <div class="container-fluid mx-auto max-width">
         <div class="row">
           <div
-            class="col-md-3 d-flex flex-column align-items-center justify-content-center"
+            class="col-md-3 col-6 d-flex flex-column align-items-center justify-content-center"
           >
             <div class="list-1 pb-3 pt-2">
               <ul>
@@ -328,7 +520,7 @@
             </div>
           </div>
           <div
-            class="col-md-3 d-flex flex-column align-items-center justify-content-center"
+            class="col-md-3 col-6 d-flex flex-column align-items-center justify-content-center"
           >
             <div class="list-1 pb-3 pt-2">
               <ul>
@@ -349,7 +541,7 @@
             </div>
           </div>
           <div
-            class="col-md-3 d-flex flex-column align-items-center justify-content-center"
+            class="col-md-3 col-6 d-flex flex-column align-items-center justify-content-center"
           >
             <div class="list-1 pb-3 pt-2">
               <ul>
@@ -371,7 +563,7 @@
             </div>
           </div>
           <div
-            class="col-md-3 d-flex flex-column align-items-center justify-content-center"
+            class="col-md-3 col-6 d-flex flex-column align-items-center justify-content-center"
           >
             <div class="list-1 pb-3 pt-2">
               <ul>
@@ -422,38 +614,46 @@
 
           <div class="row">
             <div
-              class="col-md-3 d-flex flex-column align-items-center justify-content-center"
+              class="col-md-3 col-6 d-flex flex-column align-items-center justify-content-center"
             >
-              <ul>
-                <li>焼入れ</li>
-                <li>真空焼入れ</li>
-                <li>タフトライド</li>
-              </ul>
+              <div class="list-1-items">
+                <ul>
+                  <li>焼入れ</li>
+                  <li>真空焼入れ</li>
+                  <li>タフトライド</li>
+                </ul>
+              </div>
             </div>
             <div
-              class="col-md-3 d-flex flex-column align-items-center justify-content-center"
+              class="col-md-3 col-6 d-flex flex-column align-items-center justify-content-center"
             >
-              <ul>
-                <li>焼戻し</li>
-                <li>高周波焼入れ</li>
-                <li>調質</li>
-              </ul>
+              <div class="list-1-items">
+                <ul>
+                  <li>焼戻し</li>
+                  <li>高周波焼入れ</li>
+                  <li>調質</li>
+                </ul>
+              </div>
             </div>
             <div
-              class="col-md-3 d-flex flex-column align-items-center justify-content-center"
+              class="col-md-3 col-6 d-flex flex-column align-items-center justify-content-center"
             >
-              <ul>
-                <li>焼鈍し</li>
-                <li>浸炭焼入れ</li>
-              </ul>
+              <div class="list-1-items">
+                <ul>
+                  <li>焼鈍し</li>
+                  <li>浸炭焼入れ</li>
+                </ul>
+              </div>
             </div>
             <div
-              class="col-md-3 d-flex flex-column align-items-center justify-content-center"
+              class="col-md-3 col-6 d-flex flex-column align-items-center justify-content-center"
             >
-              <ul>
-                <li>焼きならし</li>
-                <li>炎焼入れ</li>
-              </ul>
+              <div class="list-1-items">
+                <ul>
+                  <li>焼きならし</li>
+                  <li>炎焼入れ</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -468,7 +668,7 @@
           </div>
           <div class="row mt-5">
             <div
-              class="col-md-3 d-flex flex-column align-items-center justify-content-center"
+              class="col-md-3 col-6 d-flex flex-column align-items-center justify-content-center"
             >
               <ul>
                 <li>ユニクロメッキ</li>
@@ -478,7 +678,7 @@
               </ul>
             </div>
             <div
-              class="col-md-3 d-flex flex-column align-items-center justify-content-center"
+              class="col-md-3 col-6 d-flex flex-column align-items-center justify-content-center"
             >
               <ul>
                 <li>有色クロメート</li>
@@ -488,7 +688,7 @@
               </ul>
             </div>
             <div
-              class="col-md-3 d-flex flex-column align-items-center justify-content-center"
+              class="col-md-3 col-6 d-flex flex-column align-items-center justify-content-center"
             >
               <ul>
                 <li>黒色亜鉛メッキ</li>
@@ -498,7 +698,7 @@
               </ul>
             </div>
             <div
-              class="col-md-3 d-flex flex-column align-items-center justify-content-center"
+              class="col-md-3 col-6 d-flex flex-column align-items-center justify-content-center"
             >
               <ul>
                 <li>青色亜鉛メッキ</li>
@@ -539,7 +739,7 @@
         <div class="row">
           <!-- card 1 -->
           <div
-            class="col-md-4 d-flex align-items-center justify-content-center mt-3 mb-4"
+            class="col-md-4 col-6 d-flex align-items-center justify-content-center mt-3 mb-4"
           >
             <div class="single-quality-card">
               <h2 class="mb-3">原材料検査</h2>
@@ -550,7 +750,7 @@
           </div>
           <!-- card 2 -->
           <div
-            class="col-md-4 d-flex align-items-center justify-content-center mt-3 mb-4"
+            class="col-md-4 col-6 d-flex align-items-center justify-content-center mt-3 mb-4"
           >
             <div class="single-quality-card">
               <h2 class="mb-3">原材料検査</h2>
@@ -591,7 +791,7 @@
               <h2 class="text-center mb-3">測定器具</h2>
               <div class="operating mt-3 d-flex">
                 <div
-                  class="col-md-6 justify-content-center align-items-center d-flex"
+                  class="col-md-6 col-6 justify-content-center align-items-center d-flex"
                 >
                   <ul>
                     <li>外径マイクロメータ</li>
@@ -606,7 +806,7 @@
                   </ul>
                 </div>
                 <div
-                  class="col-md-6 justify-content-center align-items-center d-flex"
+                  class="col-md-6 col-6 justify-content-center align-items-center d-flex"
                 >
                   <ul>
                     <li>ブレードマイクロメータ</li>
@@ -623,7 +823,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 d-flex justify-content-end">
+          <div class="col-md-4 col-10 d-flex justify-content-end">
             <img src="./img/man-operating.jpg" alt="" />
           </div>
         </div>
@@ -808,9 +1008,12 @@
         </div>
         <!-- Footer 2 start -->
         <div class="row footer-2">
-          <div class="d-flex align-items-center mx-auto text-center">
+          <div class="d-flex no-dflex align-items-center mx-auto text-center">
             <div class="col-md-6">
-              <div class="row">
+              <div class="responsive-img">
+                <img src="./img/company-logo.png" alt="" />
+              </div>
+              <div class="row company-logo">
                 <div class="col-md-6">
                   <div class="logo d-flex pe-2 justify-content-end">
                     <img src="./img/logo.png" alt="" />
@@ -829,9 +1032,9 @@
                 <p>
                   深圳市宝安区新橋街道新橋社区白沙路42号F1<br />
                   No.42 Baisha Road, Xinqiao Community, Xinqiao Street,<br />　Bao’an
-                  District, Shenzhen, Guangdong 518126, China<br />
-                  <br /><br />TEL : (+86) 755-2322-9683 FAX : (+86)
-                  755-2322-9683 <br />Email : jinyuanshuai@sz-jinyuan.com
+                  District, Shenzhen, Guangdong 518126, China <br /><br />TEL :
+                  (+86) 755-2322-9683 FAX : (+86) 755-2322-9683 <br />Email :
+                  jinyuanshuai@sz-jinyuan.com
                 </p>
               </div>
             </div>
