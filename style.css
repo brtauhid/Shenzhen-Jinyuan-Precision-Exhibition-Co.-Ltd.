@@ -1,6 +1,11 @@
 @font-face {
   font-family: Yahei;
-  src: url(./fonts/Microsoft-YaHei-Bold.ttc);
+  src: url(./fonts/Microsoft-YaHei-Regular.ttc);
+}
+
+@font-face {
+  font-family: Gothik;
+  src: url(./fonts/MS\ Gothic.ttc);
 }
 * {
   margin: 0 !important;
@@ -9,7 +14,7 @@
 }
 
 body {
-  font-family: Yahei, Arial, Helvetica, sans-serif;
+  font-family: Yahei, Gothik, Arial, Helvetica, sans-serif;
 }
 
 h1,
@@ -18,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Yahei, Arial, Helvetica, sans-serif !important;
+  font-family: Yahei, Gothik, Arial, Helvetica, sans-serif !important;
 }
 
 .topbar-mobile {
@@ -33,9 +38,9 @@ h6 {
   padding: 10px 20px !important;
   background-color: #b5a064;
 }
-
+/* DESKTOP TOPBAR SECTION */
 .top-bar {
-  height: 50px;
+  height: 60px;
   margin-bottom: -2px !important;
   background-color: #fff;
 }
@@ -47,7 +52,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50px;
+  height: 60px;
 }
 
 .main-menu li {
@@ -140,6 +145,8 @@ h6 {
   align-items: center;
   justify-content: center;
 }
+
+/* DESKTOP ABOUT SECTION */
 .about-wrapper {
   height: 370px;
 }
@@ -166,7 +173,7 @@ h6 {
   color: #fff;
 }
 
-/* strength section start */
+/* DESKTOP STRENGTH SECTION */
 
 .strength-section-title {
   margin-top: 230px !important;
@@ -278,7 +285,7 @@ h6 {
   font-size: 12px;
   width: 400px !important;
 }
-/* capability */
+/* DESKTOP CAPABLITY SECTION */
 .capability {
   background-color: #fff;
 }
@@ -370,7 +377,7 @@ h6 {
   top: 130%;
   z-index: 1;
 }
-/* quality */
+/* DESKTOP QUALITY SECTION */
 .quality {
   background-color: #f7f7f7;
 }
@@ -459,7 +466,7 @@ h6 {
   font-size: 12px;
 }
 
-/* equipment start */
+/* DESKTOP EQUIPEMENT SECTION */
 .equipement {
   height: 500px;
   text-align: center;
@@ -514,7 +521,7 @@ h6 {
   text-align: left !important;
 }
 
-/* Company Info */
+/* DESKTOP COMPANY INFO SECTION */
 .ci-title h2 {
   font-size: 30px;
   color: #b5a064;
@@ -548,7 +555,7 @@ h6 {
   max-width: 500px;
 }
 
-/* footer start */
+/* DESKTOP FOOTER SECTION */
 .footer-1 {
   height: 110px;
   background-color: #b5a064;
