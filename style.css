@@ -1,11 +1,11 @@
 @font-face {
-  font-family: Yahei;
-  src: url(./fonts/Microsoft-YaHei-Regular.ttc);
+  font-family: "Yahei";
+  src: url(./fonts/Microsoft-YaHei-Regular.ttc) format("truetypecollection");
 }
 
 @font-face {
-  font-family: Gothik;
-  src: url(./fonts/MS\ Gothic.ttc);
+  font-family: "Gothik";
+  src: url(./fonts/MS/Gothic.ttc) format("truetypecollection");
 }
 * {
   margin: 0 !important;
