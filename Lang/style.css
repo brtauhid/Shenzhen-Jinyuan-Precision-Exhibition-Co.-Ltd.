@@ -383,6 +383,7 @@
   flex-direction: column;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
+
 .single-quality-card img {
   margin-left: 10px !important;
 }
@@ -472,7 +473,6 @@
   font-size: 17px;
   position: relative;
   color: #b5a064;
-  font-weight: 600;
 }
 
 .eq-heading h2:after {
@@ -617,6 +617,10 @@
   .btn-mobile .fas {
     color: #fff;
     font-size: 10px;
+  }
+
+  .desktop-quality-card {
+    display: none;
   }
   .btn-mobile p {
     margin-top: 5px !important;
@@ -812,20 +816,5 @@
   }
   .single-card-container img {
     display: none;
-  }
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-  }
-
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-  }
-
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-  }
-
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
   }
 }

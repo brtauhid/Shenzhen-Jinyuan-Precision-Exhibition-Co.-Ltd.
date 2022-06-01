@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/54db8b061e.js"
       crossorigin="anonymous"
@@ -15,6 +14,8 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
+
     
   </head>
   <body>
@@ -28,7 +29,7 @@
             <h4>深圳市金元精密発展有限公司</h4>
             <p>jinyuanshuai@sz-jinyuan.com</p>
           </div>
-          <a href="./Lang/lang-JP.html"
+          <a href=""
             class="col-2 btn-mobile d-flex justify-content-center align-items-center"
           >
           <i class="fas fa-globe me-1"></i> <p>中文版</p><i class="fas fa-caret-right "></i>
@@ -101,7 +102,7 @@
             </div>
             <div class="top-bar-email">jinyuanshuai@sz-jinyuan.com</div>
           </div>
-          <a href="./Lang/lang-JP.html"
+          <a href=""
             class="col-md-1 topbar-icon d-flex  align-items-center justify-content-center "
           >
           <i class="fas fa-globe me-2"></i> <p>中国語版</p><i class="ms-2 fas fa-caret-right"></i> 
@@ -143,6 +144,8 @@
         </div>
       </div>
     </section>
+
+
 <!-- STRENGTH SECTION FOR MOBILE DEVICE -->
     <section class="mobile-strength">
       <div class="container-fluid">
@@ -186,6 +189,9 @@
           <!-- deails -->
           <div class="row mt-5">
             <div>
+              <div class="col">
+                <img src="./img/woman.jpg" width="100%" alt="" />
+              </div>
               <div class="col mt-5">
                 <div class="strength-detail-mobile">
                   <div class="number1-mobile">01</div>
@@ -202,14 +208,15 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <img src="./img/woman.jpg" width="100%" alt="" />
-              </div>
+              
             </div>
           </div>
           <!-- deails -->
           <div class="row mt-5">
             <div>
+              <div class="col">
+                <img src="./img/parts.jpg" width="100%" alt="" />
+              </div>
               <div class="col mt-5">
                 <div class="strength-detail-mobile">
                   <div class="number1-mobile">02</div>
@@ -225,14 +232,15 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <img src="./img/parts.jpg" width="100%" alt="" />
-              </div>
+              
             </div>
           </div>
           <!-- deails -->
           <div class="row mt-5">
             <div>
+              <div class="col">
+                <img src="./img/man-working.jpg" width="100%" alt="" />
+              </div>
               <div class="col mt-5">
                 <div class="strength-detail-mobile">
                   <div class="number1-mobile">03</div>
@@ -248,14 +256,15 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <img src="./img/man-working.jpg" width="100%" alt="" />
-              </div>
+              
             </div>
           </div>
           <!-- deails -->
           <div class="row mt-5">
             <div>
+              <div class="col">
+                <img src="./img/parts-2.jpg" width="100%" alt="" />
+              </div>
               <div class="col mt-5">
                 <div class="strength-detail-mobile">
                   <div class="number1-mobile">04</div>
@@ -271,14 +280,15 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <img src="./img/parts-2.jpg" width="100%" alt="" />
-              </div>
+              
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- <div class="downarrow-bg">
+
+    </div> -->
 
     <!-- DESKTOP STRENGTH SECTION -->
     <section class="strength">
@@ -427,8 +437,15 @@
           </div>
         </div>
       </div>
+      
 
     </section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 quality-section-bg"></div>
+      </div>
+    </div>
+    
 
 
     <!-- DESKTOP CAPABILITY SECTION -->
@@ -459,16 +476,18 @@
           </div>
         </div>
 
-        <div class="row">
-          <div
-            class="col-md-6 d-flex ps-5 align-items-center justify-content-center"
-          >
-            <img src="./img/cylender.jpg" alt="" />
-          </div>
-          <div
-            class="col-md-6 d-flex pe-5 align-items-center justify-content-center"
-          >
-            <img src="./img/cube.jpg" alt="" />
+        <div class="capability-img">
+          <div class="row">
+            <div
+              class="col-md-6 img-1 d-flex ps-5 align-items-center justify-content-center"
+            >
+              <img src="./img/cylender.jpg" alt="" />
+            </div>
+            <div
+              class="col-md-6 img-2 d-flex pe-5 align-items-center justify-content-center"
+            >
+              <img src="./img/cube.jpg" alt="" />
+            </div>
           </div>
         </div>
 
@@ -481,24 +500,25 @@
               <span>1000</span>
               個まで
             </h1>
-            <!-- <img src="./img/black-line.jpg" alt="" /> -->
+            <img class="line-img2" src="./img/black-line.jpg" alt="" />
           </div>
         </div>
 
         <div class="row">
           <div
-            class="col-md-12 d-flex my-5 flex-column align-items-center justify-content-center"
+            class="col-md-12 d-flex my-5 max-width flex-column align-items-center justify-content-center"
           >
             <div class="capability-info">
               <h3 class="ps-3 py-1">対応材質</h3>
               <p class="mt-4">
                 中国と日本の一般的な加工素材なら全て対応可能です。
-材料の仕入れ先の信頼性が高く、材料証明書などの対応もできます。
+              材料の仕入れ先の信頼性が高く、材料証明書などの対応もできます。
               </p>
             </div>
           </div>
         </div>
-      </div>
+
+
 
       <!-- Table chart start -->
       <div class="container-fluid mx-auto max-width">
@@ -592,12 +612,14 @@
           </div>
         </div>
       </div>
+
       <!-- new  -->
+
       <div class="row">
         <div
-          class="col-md-12 d-flex my-5 flex-column align-items-center justify-content-center"
+          class="col-md-12 max-width mx-auto text-center"
         >
-          <div class="capability-info">
+          <div class="capability-info2 mt-5">
             <h3 class="ps-3 py-1">対応熱処理・表面処理</h3>
             <p class="mt-4">
               熱処理と表面処理は外部発注となりますが、仕入先とは長年協力しており、納期の面では柔軟な対応をしてくれます。
@@ -605,117 +627,117 @@
           </div>
         </div>
       </div>
+ <!-- table chart 2 start -->
+ <div class="container mx-auto max-width">
+  <!-- list 2 -->
+  <div class="list-2 p-5">
+    <div class="row mb-5">
+      <div
+        class="col-md-12 d-flex flex-column align-items-center justify-content-center list-item"
+      >
+        <h2>熱処理</h2>
+      </div>
+    </div>
 
-      <!-- table chart 2 start -->
-      <div class="container mx-auto max-width">
-        <!-- list 2 -->
-        <div class="list-2 p-5">
-          <div class="row mb-5">
-            <div
-              class="col-md-12 d-flex flex-column align-items-center justify-content-center list-item"
-            >
-              <h2>熱処理</h2>
-            </div>
-          </div>
-
-          <div class="row">
-            <div
-              class="col-md-3 col-6 d-flex flex-column align-items-center justify-content-center"
-            >
-              <div class="list-1-items">
-                <ul>
-                  <li>焼入れ</li>
-                  <li>真空焼入れ</li>
-                  <li>タフトライド</li>
-                </ul>
-              </div>
-            </div>
-            <div
-              class="col-md-3 col-6 d-flex flex-column align-items-center justify-content-center"
-            >
-              <div class="list-1-items">
-                <ul>
-                  <li>焼戻し</li>
-                  <li>高周波焼入れ</li>
-                  <li>調質</li>
-                </ul>
-              </div>
-            </div>
-            <div
-              class="col-md-3 col-6 d-flex flex-column align-items-center justify-content-center"
-            >
-              <div class="list-1-items">
-                <ul>
-                  <li>焼鈍し</li>
-                  <li>浸炭焼入れ</li>
-                </ul>
-              </div>
-            </div>
-            <div
-              class="col-md-3 col-6 d-flex flex-column align-items-center justify-content-center"
-            >
-              <div class="list-1-items">
-                <ul>
-                  <li>焼きならし</li>
-                  <li>炎焼入れ</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- list 3 -->
-        <div class="list-2 p-5 mt-4">
-          <div class="row mt-2">
-            <div
-              class="col-md-12 d-flex flex-column align-items-center justify-content-center list-item-2"
-            >
-              <h2>表面処理</h2>
-            </div>
-          </div>
-          <div class="row mt-5">
-            <div
-              class="col-md-3 col-6 d-flex flex-column align-items-center justify-content-center"
-            >
-              <ul>
-                <li>ユニクロメッキ</li>
-                <li>白色亜鉛メッキ</li>
-                <li>赤色アルマイト</li>
-                <li>ニッケルメッキ</li>
-              </ul>
-            </div>
-            <div
-              class="col-md-3 col-6 d-flex flex-column align-items-center justify-content-center"
-            >
-              <ul>
-                <li>有色クロメート</li>
-                <li>黄色亜鉛メッキ</li>
-                <li>硬質アルマイト</li>
-                <li>無電解ニッケルメッキ</li>
-              </ul>
-            </div>
-            <div
-              class="col-md-3 col-6 d-flex flex-column align-items-center justify-content-center"
-            >
-              <ul>
-                <li>黒色亜鉛メッキ</li>
-                <li>黒色アルマイト</li>
-                <li>クロムメッキ</li>
-                <li>黒染</li>
-              </ul>
-            </div>
-            <div
-              class="col-md-3 col-6 d-flex flex-column align-items-center justify-content-center"
-            >
-              <ul>
-                <li>青色亜鉛メッキ</li>
-                <li>白色アルマイト</li>
-                <li>硬質クロムメッキ</li>
-                <li>リン酸塩処理</li>
-              </ul>
-            </div>
-          </div>
+    <div class="row">
+      <div
+        class="col-md-3 col-6 d-flex flex-column align-items-center justify-content-center"
+      >
+        <div class="list-1-items">
+          <ul>
+            <li>焼入れ</li>
+            <li>真空焼入れ</li>
+            <li>タフトライド</li>
+          </ul>
         </div>
       </div>
+      <div
+        class="col-md-3 col-6 d-flex flex-column align-items-center justify-content-center"
+      >
+        <div class="list-1-items">
+          <ul>
+            <li>焼戻し</li>
+            <li>高周波焼入れ</li>
+            <li>調質</li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="col-md-3 col-6 cap-list1 d-flex flex-column align-items-center justify-content-center"
+      >
+        <div class="list-1-items">
+          <ul>
+            <li>焼鈍し</li>
+            <li>浸炭焼入れ</li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="col-md-3 col-6 cap-list2 d-flex flex-column align-items-center justify-content-center"
+      >
+        <div class="list-1-items">
+          <ul>
+            <li>焼きならし</li>
+            <li>炎焼入れ</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- list 3 -->
+  <div class="list-2 p-5 mt-4">
+    <div class="row mt-2">
+      <div
+        class="col-md-12 d-flex flex-column align-items-center justify-content-center list-item-2"
+      >
+        <h2>表面処理</h2>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div
+        class="col-md-3 col-6 d-flex cap-list-1 flex-column align-items-center justify-content-center"
+      >
+        <ul>
+          <li>ユニクロメッキ</li>
+          <li>白色亜鉛メッキ</li>
+          <li>赤色アルマイト</li>
+          <li>ニッケルメッキ</li>
+        </ul>
+      </div>
+      <div
+        class="col-md-3 col-6 cap-list3 d-flex flex-column align-items-center justify-content-center"
+      >
+        <ul>
+          <li>有色クロメート</li>
+          <li>黄色亜鉛メッキ</li>
+          <li>硬質アルマイト</li>
+          <li>無電解ニッケルメッキ</li>
+        </ul>
+      </div>
+      <div
+        class="col-md-3 col-6 cap-list2 d-flex  flex-column align-items-center justify-content-center"
+      >
+        <ul>
+          <li>黒色亜鉛メッキ</li>
+          <li>黒色アルマイト</li>
+          <li>クロムメッキ</li>
+          <li>黒染</li>
+        </ul>
+      </div>
+      <div
+        class="col-md-3 col-6 cap-list4 d-flex flex-column align-items-center justify-content-center"
+      >
+        <ul>
+          <li>青色亜鉛メッキ</li>
+          <li>白色アルマイト</li>
+          <li>硬質クロムメッキ</li>
+          <li>リン酸塩処理</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+     </div>
     </section>
 
     <!-- DESKTOP QUALITY SECTION -->
@@ -742,43 +764,97 @@
         </div>
 
         <!-- quality card start -->
-        <div class="row">
-          <!-- card 1 -->
-          <div
-            class="col-md-4 single-card-container col-6 d-flex align-items-center justify-content-center mt-3 mb-4"
-          >
-            <div class="single-quality-card">
-              <h2 class="mb-3">原材料検査</h2>
-              <p>
-                購入した原材料や副資材が図面の要求事項を満たしているかをチェックします。不適格な材料が製造工程に入ることを防ぎます。
-              </p>
+        <div class="desktop-quality-card">
+
+          <!-- Desktop quality cards -->
+          
+          <div class="row">
+            <div class="card-container d-flex align-items-center justify-content-center">
+              <div class="card1">
+                <div class="single-quality-card">
+                  <h2 class="mb-3">原材料検査</h2>
+                  <p>
+                    購入した原材料や副資材が図面の要求事項を満たしているかをチェックします。不適格な材料が製造工程に入ることを防ぎます。
+                  </p>
+                </div>
+              </div>
+              <div class="arrow1">
+                <img src="./img/r-1.png" width="15px" height="30px" alt="" >
+              </div>
+              <div class="card2">
+                <div class="single-quality-card">
+                <h2 class="mb-3">原材料検査</h2>
+                <p>
+                  購入した原材料や副資材が図面の要求事項を満たしているかをチェックします。不適格な材料が製造工程に入ることを防ぎます。
+                </p>
+              </div>
             </div>
-            <img style="margin-left:70px!important; margin-right: 50px" src="./img/r-1.png" width="45px" alt="" >
-          </div>
-          <!-- card 2 -->
-          <div
-            class="col-md-4 col-6 d-flex align-items-center justify-content-center mt-3 mb-4 single-card-container"
-          >
-            <div class="single-quality-card ">
-              <h2 class="mb-3">工程内検査</h2>
-              <p>
-                製品加工の各工程で、加工寸法が規定の公差から外れていないかを測定します。不良品が次工程に入ることを防ぎます。
-              </p>
+              <div class="arrow2">
+                <img src="./img/r-1.png" width="15px" height="30px" alt="" >
+              </div>
+              <div class="card3">
+                <div class="single-quality-card">
+                <h2 class="mb-3">原材料検査</h2>
+                <p>
+                  購入した原材料や副資材が図面の要求事項を満たしているかをチェックします。不適格な材料が製造工程に入ることを防ぎます。
+                </p>
+              </div>
             </div>
-            <img style="margin-left:70px!important" src="./img/r-2.png" width="45px" alt="" >
-          </div>
-          <!-- card 3 -->
-          <div
-            class="col-md-4 d-flex align-items-center  justify-content-center mt-3 mb-4"
-          >
-            <div style="margin-left:-70px!important" class="single-quality-card ">
-              <h2 class="mb-3">最終検査</h2>
-              <p>
-                ノギスから三次元測定機まで、さまざまな測定具を導入しております。測定者全員が社内研修を受けており、全点検査を徹底しています。硬度測定証明書や材料分析証明書もご提供しておりますので、必要な場合はご相談ください。
-              </p>
+          
             </div>
+            
           </div>
-        </div>
+          
+          
+          </div>
+          
+          
+          
+          
+          
+          <div class="mobile-quality-card">
+          
+          
+            <div class="row">
+              <!-- card 1 -->
+              <div
+                class="col-md-4 single-card-container col-6 d-flex align-items-center justify-content-center mt-3 mb-4"
+              >
+                <div class="single-quality-card">
+                  <h2 class="mb-3">原材料检验</h2>
+                  <p>
+                    检查采购的原辅材料是否符合图纸要求。 防止不合格材料进入制造过程。
+                  </p>
+                </div>
+              </div>
+              <!-- card 2 -->
+              <div
+                class="col-md-4 col-6 d-flex align-items-center justify-content-center mt-3 mb-4 single-card-container"
+              >
+                <div class="single-quality-card ">
+                  <h2 class="mb-3">过程检验</h2>
+                  <p>
+                    在产品加工的每一道工序中，测量加工尺寸是否偏离规定的公差。 防止不良品进入下道工序。
+                  </p>
+                </div>
+              </div>
+              <!-- card 3 -->
+              <div
+                class="col-md-4 d-flex align-items-center  justify-content-center mt-3 mb-4"
+              >
+                <div  class="single-quality-card ">
+                  <h2 class="mb-3">最终检验</h2>
+                  <p>
+                    我们推出了从卡尺到 3D 测量机的各种测量工具。 所有测量员都经过内部培训，并在所有方面都经过彻底检查。 我们还提供硬度测量证书和材料分析证书，如有需要请联系我们。
+                  </p>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+
+
+
         <!-- operating title -->
         <div class="row">
           <div class="col-md-12">
@@ -790,33 +866,92 @@
             </div>
           </div>
         </div>
+
+
+
         <!-- operating content -->
-        <div class="row">
-          <div
-            class="col-md-8 d-flex operating-content justify-content-center align-items-center pb-3"
-          >
-            <div class="row">
-              <h2 class="text-center mb-3">測定器具</h2>
-              <div class="operating mt-3 d-flex">
-                <div
-                  class="col-md-6 col-6 justify-content-center align-items-center d-flex"
-                >
-                  <ul>
-                    <li>外径マイクロメータ</li>
+
+        <!-- Desktop operating content -->
+        <div class="desktop-operating-content">
+          <div class="row">
+            <div
+              class="col-md-8 d-flex operating-content justify-content-center align-items-center pb-3"
+            >
+              <div class="row">
+                <div class="operating mt-3 d-flex flex-column">
+                  <h2 class="text-center mb-3">測定器具</h2>
+              <div class="operating-list d-flex justify-content-center align-items-center">
+                      <div
+                      class="col-md-6 col-6 justify-content-center align-items-center d-flex"
+                    >
+                      <ul>
+                        <li>外径マイクロメータ</li>
+                        <li>歯厚マイクロメータ</li>
+                        <li>三次元測定機</li>
+                        <li>蛍光X線分析計</li>
+                        <li>脱磁機</li>
+                        <li>シリンダーゲージ</li>
+                        <li>ピンゲージ</li>
+                        <li>ラジアスゲージ</li>
+                        <li>角度計</li>
+                      </ul>
+                    </div>
+                    <div
+                      class="col-md-6 col-6 justify-content-center align-items-center d-flex"
+                    >
+                      <ul>
+                        <li>ブレードマイクロメータ</li>
+                        <li>ハイトゲージ</li>
+                        <li>画像測定機</li>
+                        <li>成分分析計</li>
+                        <li>デジタルノギス</li>
+                        <li>栓ゲージ</li>
+                        <li>リングゲージ</li>
+                        <li>ピッチゲージ</li>
+                        <li>硬度計</li>
+                      </ul>
+                    </div>
+    
+              </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-10 d-flex justify-content-center">
+              <img src="./img/man-operating.jpg" alt="" />
+            </div>
+          </div>
+
+        </div>
+       
+
+        <!-- Mobile operating content -->
+        <div class="mobile-operating-content">
+
+           <div class="mobile-opereting-title">
+             <div class="row">
+               <div class="col">
+                 <h3>測定器具</h3>
+               </div>
+             </div>
+           </div>
+           <div class="mobile-operating-list">
+            <div class="row ">
+                <div class="col-6">
+                  <ul class="ms-3">
+                    <li>外径マイクロメータ </li>
                     <li>歯厚マイクロメータ</li>
                     <li>三次元測定機</li>
                     <li>蛍光X線分析計</li>
                     <li>脱磁機</li>
-                    <li>シリンダーゲージ</li>
-                    <li>ピンゲージ</li>
+                    <li>シリンダーゲージ </li>
+                    <li>ピンゲージ </li>
                     <li>ラジアスゲージ</li>
                     <li>角度計</li>
                   </ul>
-                </div>
-                <div
-                  class="col-md-6 col-6 justify-content-center align-items-center d-flex"
-                >
-                  <ul>
+            </div>
+            <div class="col-6">
+              <ul class="ms-3">
                     <li>ブレードマイクロメータ</li>
                     <li>ハイトゲージ</li>
                     <li>画像測定機</li>
@@ -826,17 +961,29 @@
                     <li>リングゲージ</li>
                     <li>ピッチゲージ</li>
                     <li>硬度計</li>
-                  </ul>
-                </div>
-              </div>
+              </ul>
             </div>
-          </div>
-          <div class="col-md-4 col-10 d-flex justify-content-end">
-            <img src="./img/man-operating.jpg" alt="" />
-          </div>
+              
+            </div>
+            <div class="quality-mobile-img d-flex align-items-center justify-content-center">
+              <img src="./img/man-operating.jpg" alt="">
+            </div>
+            <div class="operating-bg"></div>
+
+           </div>
+           
+        </div>
+
+
+
+      </div>
+      
+    </section>
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 quality-section-bg"></div>
         </div>
       </div>
-    </section>
 
     <!-- DESKTOP EQUIPEMENT SECTION -->
     <section class="equipement">
@@ -983,7 +1130,7 @@
                       No.42 Baisha Road, Xinqiao Community, Xinqiao
                       Street,　Bao’an<br />
                       District, Shenzhen, Guangdong 518126, China<br />
-                      <br /><br />TEL : (+86) 755-2322-9683 FAX : (+86)
+                      <br /><br />TEL : (+86) 755-2322-9683 <br> FAX : (+86)
                       755-2322-9683<br> Email : jinyuanshuai@sz-jinyuan.com
                     </h4>
                   </div>
@@ -992,7 +1139,7 @@
               <div class="ci-map py-5">
                 <div class="row">
                   <div class="col-md-12">
-                    <img src="./img/map.jpg" alt="" />
+                    <img src="./img/map.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -1050,8 +1197,7 @@
         </div>
         <div class="footer-copyright">
           <p>
-            Copyright &copy; Shenzhen Jinyuan Precision Development Co., Ltd.
-            <br>All Rights Reserved.
+            Copyright &copy; Shenzhen Jinyuan Precision Development Co., Ltd.All Rights Reserved.
           </p>
         </div>
       </div>
