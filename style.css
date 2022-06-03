@@ -2,7 +2,6 @@
   font-family: "Yahei";
   src: url(./fonts/Microsoft-YaHei-Regular.ttc) format("truetype");
 }
-
 @font-face {
   font-family: "Gothik";
   src: url(./fonts/MS/Gothic.ttc) format("truetype");
@@ -12,15 +11,12 @@
   padding: 0 !important;
   box-sizing: border-box;
 }
-
 body {
   color: #404040;
 }
-
 .topbar-mobile {
   display: none;
 }
-
 #btn-back-to-top {
   position: fixed;
   bottom: 70px;
@@ -39,31 +35,26 @@ body {
 .topbar-icon {
   background-color: #b5a064;
 }
-
 .main-menu {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 60px;
 }
-
 .main-menu li {
   list-style: none;
   margin: 0 20px !important;
   display: inline-block;
 }
-
 .main-menu li a {
   text-decoration: none;
   color: #404040;
   font-size: 15px;
   transition: 0.3s;
 }
-
 .main-menu li a:hover {
   color: #b5a064;
 }
-
 .top-bar-email {
   color: #fff;
   font-size: 14px;
@@ -77,19 +68,15 @@ body {
 .topbar-icon {
   text-decoration: none;
 }
-
 .top-bar-email-bg {
   background-color: #333333;
 }
-
 .nav-email {
   width: 150px;
 }
-
 .nav-lang-btn {
   width: 75px;
 }
-
 .c-title h1 {
   font-size: 18px;
   margin: 0;
@@ -113,32 +100,26 @@ body {
   background-repeat: no-repeat;
   color: #fff;
 }
-
 .hch h1 {
   font-size: 35px;
   font-weight: 400;
   position: relative;
 }
-
 .hch img {
   margin-bottom: 30px !important;
 }
-
 .hch h2 {
   font-size: 28px;
 }
-
 .hch h3 {
   font-size: 17px;
 }
-
 .hero-items {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
 /* DESKTOP ABOUT SECTION */
 .about-wrapper {
   height: 370px;
@@ -147,31 +128,25 @@ body {
   background-color: #333333;
   clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 93%, 0 75%);
 }
-
 .about-wrapper h1 {
   color: #b5a064;
   font-size: 30px;
   margin-top: -40px !important;
 }
-
 .about-wrapper h3 {
   font-size: 22px;
   color: #fff;
   font-weight: 400;
 }
-
 .about-wrapper p {
   max-width: 600px;
   font-size: 12px;
   color: #fff;
 }
-
 /* DESKTOP STRENGTH SECTION */
-
 .strength-section-title {
   margin-top: 230px !important;
 }
-
 .strength-section-title h1 {
   color: #b5a064;
   margin-bottom: 20px !important;
@@ -198,7 +173,6 @@ body {
   top: 0;
   z-index: 5555;
 }
-
 .mobile-strength {
   display: none;
 }
@@ -233,15 +207,12 @@ body {
   top: 100%;
   z-index: 1;
 }
-
 .single-strength-card p {
   color: #fff;
 }
-
 .max-width {
   max-width: 960px;
 }
-
 .st-card {
   width: 80%;
 }
@@ -254,7 +225,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .number1 {
   font-size: 80px;
   font-family: Arial, Helvetica, sans-serif;
@@ -270,11 +240,9 @@ body {
   font-weight: 700;
   color: #b5a064;
 }
-
 .info {
   margin-left: 30px !important;
 }
-
 .info-heading {
   font-size: 21px;
   color: #404040;
@@ -292,7 +260,6 @@ body {
   top: 110%;
   z-index: 1;
 }
-
 .info-detail {
   font-size: 12px;
   width: 400px !important;
@@ -311,17 +278,14 @@ body {
 .capability-info {
   width: 100%;
 }
-
 .cap-1 h2 {
   color: #b5a064;
   font-size: 15px;
   margin: 30px 0 !important;
 }
-
 .cap-1 h1 {
   font-size: 40px;
 }
-
 .cap-1 span {
   font-weight: 900;
   color: #b5a064;
@@ -329,12 +293,10 @@ body {
   font-family: arial;
   margin: 0 -13px !important;
 }
-
 .capability-title h1 {
   font-size: 30px;
   color: #b5a064;
 }
-
 .capability-title h3 {
   color: #404040;
   font-size: 20px;
@@ -349,14 +311,12 @@ body {
 .capability-section-bg {
   display: none;
 }
-
 .capability-info2 h3 {
   background-color: #b5a064;
   color: #fff;
   font-size: 20px;
   width: 100%;
 }
-
 .capability-info p {
   font-size: 12px;
   color: #404040;
@@ -365,7 +325,6 @@ body {
   font-size: 12px;
   color: #404040;
 }
-
 .capability-section-bg {
   background-color: #fff;
   clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
@@ -393,7 +352,6 @@ body {
   margin-top: -130px !important;
   z-index: 1;
 }
-
 /* table chart start */
 .list-1 {
   width: 200px;
@@ -409,7 +367,6 @@ body {
 .list-1-items li {
   color: #404040;
 }
-
 .list-title {
   color: #80681f;
   text-align: center;
@@ -433,12 +390,10 @@ body {
   border-radius: 10px;
   margin-top: 50px !important;
 }
-
 ::marker {
   color: #80681f;
   font-size: 12.5px !important;
 }
-
 .list-2 h2 {
   font-size: 25px;
   color: #80681f;
@@ -447,11 +402,9 @@ body {
   color: #404040;
   margin-top: 9px !important;
 }
-
 .list-item h2 {
   position: relative;
 }
-
 .list-item h2::after {
   content: "";
   width: 120px;
@@ -465,7 +418,6 @@ body {
 .list-item-2 h2 {
   position: relative;
 }
-
 .list-item-2 h2::after {
   content: "";
   width: 120px;
@@ -486,14 +438,12 @@ body {
   color: #b5a064;
   margin-top: 110px !important;
 }
-
 .quality-title h1 {
   font-size: 20px;
   font-weight: 400;
   margin-top: 10px !important;
   margin-bottom: -15px !important;
 }
-
 /* quality card */
 .card1,
 .card2,
@@ -505,11 +455,9 @@ body {
 .arrow2 {
   margin-right: 30px !important;
 }
-
 .mobile-quality-card {
   display: none;
 }
-
 .single-quality-card {
   width: 180px;
   height: 195px;
@@ -540,19 +488,15 @@ body {
   top: 140%;
   z-index: 1;
 }
-
 .single-quality-card p {
   font-size: 10px;
   padding: 5px 15px !important;
   color: #404040;
 }
-
 /* operating */
-
 .mobile-operating-content {
   display: none;
 }
-
 .operating {
   background-color: #fff;
   border-radius: 10px;
@@ -565,7 +509,6 @@ body {
   position: relative;
   margin-top: 12px !important;
 }
-
 .operating-content h2:after {
   content: "";
   width: 100px;
@@ -576,7 +519,6 @@ body {
   height: 3px;
   z-index: 1;
 }
-
 .operating-list {
   width: 500px;
   margin-top: 20px !important;
@@ -589,17 +531,14 @@ body {
   color: #fff;
   font-size: 20px;
 }
-
 .eq-top-heading h2 {
   margin: 0 10px !important;
 }
-
 .operating-info p {
   font-size: 12px;
   margin-bottom: 30px !important;
   color: #404040;
 }
-
 /* DESKTOP EQUIPEMENT SECTION */
 .equipement {
   height: 695px;
@@ -607,17 +546,14 @@ body {
   background-color: #fff;
   clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 84%, 0% 75%, 0 0);
 }
-
 .eq-title h2 {
   color: #b5a064;
 }
-
 .eq-title h3 {
   font-size: 20px;
   font-weight: 400;
   color: #404040;
 }
-
 .eq-top-heading h2 {
   background-color: #b5a064;
   font-size: 20px;
@@ -626,19 +562,16 @@ body {
   padding: 4px 16px !important;
   margin-bottom: 30px !important;
 }
-
 .equipement-content {
   background-color: #f7f7f7;
   border-radius: 5px;
   padding-bottom: 20px !important;
 }
-
 .eq-heading h2 {
   font-size: 17px;
   position: relative;
   color: #b5a064;
 }
-
 .eq-heading h2:after {
   content: "";
   width: 100px;
@@ -658,12 +591,10 @@ body {
   color: #fff;
   font-size: 16px;
 }
-
 .eq-list li {
   text-align: left !important;
   color: #404040;
 }
-
 /* DESKTOP COMPANY INFO SECTION */
 .ci-title h2 {
   font-size: 30px;
@@ -676,7 +607,6 @@ body {
   color: #404040;
   font-weight: 400;
 }
-
 .info-1 h3,
 .info-2 h3,
 .info-3 h3,
@@ -689,7 +619,6 @@ body {
   margin-left: 10px !important;
   line-height: 1.7;
 }
-
 .info-1 h4,
 .info-2 h4,
 .info-3 h4,
@@ -700,7 +629,6 @@ body {
   color: #404040;
   line-height: 1.7;
 }
-
 .ci-width {
   max-width: 500px;
 }
@@ -715,7 +643,6 @@ section.ci {
   background-color: #b5a064;
   color: #fff;
 }
-
 .footer-1 h4 {
   font-size: 16px;
 }
@@ -764,7 +691,6 @@ section.ci {
   top: 0;
   z-index: 999999999999;
 }
-
 /* for mobile device setting */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -772,7 +698,6 @@ section.ci {
   .section-top-bar {
     display: none;
   }
-
   #btn-back-to-top {
     position: fixed;
     bottom: 40px;
@@ -824,24 +749,20 @@ section.ci {
     justify-content: center;
     height: 50px;
   }
-
   .main-menu-mobile li {
     list-style: none;
     margin: 0 20px !important;
     display: inline-block;
   }
-
   .main-menu-mobile li a {
     text-decoration: none;
     color: #404040;
     font-size: 12px;
     transition: 0.3s;
   }
-
   .main-menu-mobile li a:hover {
     color: #b5a064;
   }
-
   /* Mobile-Hero-Area */
   .mobile-hero {
     background-image: url(./img/mobile-banner.jpg);
@@ -850,7 +771,6 @@ section.ci {
     background-size: cover;
     display: inline-block;
   }
-
   .mobile-hero h2,
   .mobile-hero h1,
   .mobile-hero h3 {
@@ -863,11 +783,9 @@ section.ci {
     padding-left: 20px !important;
     padding-right: 20px !important;
   }
-
   section.hero {
     display: none;
   }
-
   img.line-img2 {
     width: 80%;
     height: 5px;
@@ -890,12 +808,10 @@ section.ci {
     font-size: 20px;
     color: #80681f;
   }
-
   .cap-1 h1 {
     font-size: 30px;
     margin-bottom: -20px !important;
   }
-
   .cap-1 span {
     font-size: 50px;
     margin: 0 -8px !important;
@@ -956,11 +872,9 @@ section.ci {
   .row.company-logo {
     display: none;
   }
-
   .mobile-operating-list {
     height: 500px;
   }
-
   .operating-info p {
     padding: 0 15px !important;
     line-height: 1.8;
@@ -1032,7 +946,6 @@ section.ci {
   .capability-img .img-2 {
     padding-right: 14px !important;
   }
-
   section.equipement {
     margin-top: -473px !important;
     height: 1165px;
@@ -1041,29 +954,23 @@ section.ci {
   .quality-title h2 {
     margin-top: 100px !important;
   }
-
   .eq-top-heading {
     padding: 5px 10px !important;
   }
-
   .eq-heading h2 {
     font-size: 23px;
     font-weight: 500;
   }
-
   .eq-list li {
     list-style: none;
     text-align: center !important;
   }
-
   section.ci.pt-4 {
     margin-top: -340px !important;
   }
-
   .ci-info-container {
     padding: 0 20px !important;
   }
-
   .ci-map img {
     width: 100%;
   }
@@ -1071,16 +978,13 @@ section.ci {
     display: flex;
     flex-direction: column;
   }
-
   .company-title {
     margin-bottom: 10px !important;
     text-align: center;
   }
-
   .footer-2 {
     height: 200px;
   }
-
   .company-logo {
     display: none;
   }
@@ -1100,11 +1004,9 @@ section.ci {
   .capability-info2 p {
     padding: 0px 20px !important;
   }
-
   .capability-info2 p {
     padding: 0px 20px !important;
   }
-
   .capability-info2 h3 {
     margin: 0 6px !important;
     width: 96%;
@@ -1114,7 +1016,6 @@ section.ci {
   .cap-list1 {
     margin-left: -8px !important;
   }
-
   .cap-list3 ul li {
     margin-left: 35px !important;
   }
@@ -1127,15 +1028,12 @@ section.ci {
     border-radius: 10px;
     margin: 25px 15px !important;
   }
-
   .list-2 h2 {
     font-size: 20px;
   }
-
   .list-item h2::after {
     right: -43%;
   }
-  /* STRENGHT AREA MOBILE */
   .strength {
     display: none;
   }
@@ -1219,7 +1117,6 @@ section.ci {
     margin-bottom: 20px !important;
     position: relative;
   }
-
   .mobile-opereting-title:after {
     content: "";
     width: 100px;
@@ -1237,7 +1134,6 @@ section.ci {
     margin-left: 28px !important;
     font-weight: 500;
   }
-
   .eq-top-heading h2 {
     background-color: #b5a064;
     font-size: 24px;
@@ -1250,7 +1146,6 @@ section.ci {
   .cap-list-1 {
     margin-top: -95px !important;
   }
-
   .cap-list2 {
     margin-top: -120px !important;
   }
@@ -1261,20 +1156,5 @@ section.ci {
     height: 90px !important;
     clip-path: polygon(50% 0%, 100% 0, 100% 76%, 50% 97%, 0% 76%, 0 0);
     margin-top: -1037px !important;
-  }
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-  }
-
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-  }
-
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-  }
-
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
   }
 }
